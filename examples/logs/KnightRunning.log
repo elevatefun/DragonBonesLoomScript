@@ -1,0 +1,859 @@
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/common/assets/assets.cpp@729] (false): 
+Could not open file 'assets/Knight2/knightSprites.xml'.
+[asset.protocol] LOG: =====================
+[asset.protocol] LOG: =   RUNTIME ERROR   =
+[asset.protocol] LOG: =====================
+[asset.protocol] LOG: Native Assertion - see above for full error text
+[asset.protocol] LOG: Stacktrace:
+[asset.protocol] LOG: loom.LoomTextAsset.load : [NATIVE] : 0
+[asset.protocol] LOG: loom2d.textures.TextureAtlas.bindToFile : src/loom2d/Textures/TextureAtlas.ls : 86
+[asset.protocol] LOG: loom2d.ui.TextureAtlasManager.register : src/loom2d/UI/TextureAtlasManager.ls : 35
+[asset.protocol] LOG: dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 70
+[asset.protocol] LOG: .Basic.run : ./src/KnightRunning.ls : 51
+[asset.protocol] LOG: loom.Application._run : src/loom/Application.ls : 198
+[asset.protocol] LOG: system.BaseDelegate.call : [NATIVE] : 0
+[asset.protocol] LOG: loom.Application.tick : src/loom/Application.ls : 348
+[asset.protocol] LOG: 
+Fatal Runtime Error
+
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: [error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+[asset.protocol] LOG: =====================
+[asset.protocol] LOG: =   RUNTIME ERROR   =
+[asset.protocol] LOG: =====================
+[asset.protocol] LOG: Native Assertion - see above for full error text
+[asset.protocol] LOG: Stacktrace:
+[asset.protocol] LOG: dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+[asset.protocol] LOG: dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+[asset.protocol] LOG: dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+[asset.protocol] LOG: dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+[asset.protocol] LOG: .Basic.setupKnight : ./src/KnightRunning.ls : 50
+[asset.protocol] LOG: system.BaseDelegate.call : [NATIVE] : 0
+[asset.protocol] LOG: dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+[asset.protocol] LOG: .Basic.run : ./src/KnightRunning.ls : 43
+[asset.protocol] LOG: loom.Application._run : src/loom/Application.ls : 198
+[asset.protocol] LOG: system.BaseDelegate.call : [NATIVE] : 0
+[asset.protocol] LOG: loom.Application.tick : src/loom/Application.ls : 348
+[asset.protocol] LOG: 
+Fatal Runtime Error
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 50
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 43
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 50
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 43
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 50
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 43
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 49
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 43
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+Knight
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 231
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 95
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+texture
+
+texture
+
+texture
+
+texture
+
+texture
+
+texture
+
+texture
+
+texture
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+
+texture
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
