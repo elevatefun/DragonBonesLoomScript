@@ -115,7 +115,7 @@ package dragonBones.factories {
 
             var entryName:String = (skeletonName) ? skeletonName : armatureName;
 
-            //_currentDataName = _dataDic[entryName];
+            _currentDataName = _dataDic[entryName].name;
             _currentTextureAtlasName = _textureAtlasDic[entryName];
 
             if(skeletonName) {
@@ -213,12 +213,12 @@ package dragonBones.factories {
                     switch(displayData.type)
                     {
                         case DisplayData.ARMATURE:
-                            /* childArmature = buildArmature(displayData.name, null, _currentDataName, _currentTextureAtlasName); */
-                            /* if(childArmature) */
-                            /* { */
-                            /*     helpArray.push(childArmature); */
-                            /* } */
-                            /* break; */
+                            childArmature = buildArmature(displayData.name, null, _currentDataName, _currentTextureAtlasName);
+                            if(childArmature)
+                            {
+                                helpArray.push(childArmature);
+                            }
+                            break;
                         case DisplayData.IMAGE:
                         default:
                             helpArray.push(generateDisplay(_currentTextureAtlasName, displayData.name, displayData.pivot.x, displayData.pivot.y));

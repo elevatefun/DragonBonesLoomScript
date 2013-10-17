@@ -120,8 +120,8 @@ package dragonBones
 			if(!value) {
 			//	throw new ArgumentError();
 			}
-			var _:int = _displayList.length = value.length;
-			var i = int(_);
+			var i:int = int(value.length);
+			_displayList.length = i;
 			while(i --)
 			{
 				_displayList[i] = value[i];

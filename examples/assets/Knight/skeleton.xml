@@ -404,7 +404,7 @@
     </bone>
     <skin name="">
       <slot name="head" parent="head" z="0">
-        <display name="knightFolder/horseHead_" type="image">
+        <display name="knightFolder/horseHead" type="image">
           <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="48"/>
         </display>
       </slot>

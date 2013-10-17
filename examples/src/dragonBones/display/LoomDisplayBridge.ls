@@ -39,7 +39,7 @@ package dragonBones.display {
 
         public function set display(value:TextureAtlasSprite):void {
 
-            if (_display && value) {
+            if (_display is TextureAtlasSprite && value is TextureAtlasSprite) {
 
                 var from:TextureAtlasSprite = _display;
                 var to:TextureAtlasSprite = value;
@@ -75,12 +75,13 @@ package dragonBones.display {
                 }
                 removeDisplay();
 
-            } else if(value && !_imageBackup) {
+            } else if(value is TextureAtlasSprite && !_imageBackup) {
                 _imageBackup = value;
                 _textureBackup = _imageBackup.texture;
                 _pivotXBackup = _imageBackup.pivotX;
                 _pivotYBackup = _imageBackup.pivotY;
             }
+
             _display = value;
             addDisplay(parent, index);
         }
