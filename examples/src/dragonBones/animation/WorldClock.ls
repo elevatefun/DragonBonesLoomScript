@@ -9,54 +9,8 @@ package dragonBones.animation {
 
     import loom.gameframework.TimeManager;
 
-    //import flash.utils.getTimer;
-
-
     /*
      * A WorldClock instance lets you conveniently update many number of Armature instances at once. You can add/remove Armature instance and set a global timescale that will apply to all registered Armature instance animations.
-     * @example
-     * <p>Download the example files <a href='http://dragonbones.github.com/downloads/DragonBones_Tutorial_Assets.zip'>here</a>: </p>
-     * <listing>
-     *  package
-     *  {
-     *      import dragonBones.Armature;
-     *      import dragonBones.factories.BaseFactory;
-     *      import flash.display.Sprite;
-     *      import flash.events.Event;
-     *  import dragonBones.animation.WorldClock;
-     *
-     *
-     * public class DragonAnimation extends Sprite
-     *      {
-     *          [Embed(source = "Dragon1.swf", mimeType = "application/octet-stream")]
-     *          private static const ResourcesData:Class;
-     *
-     *          private var factory:BaseFactory;
-     *          private var armature:Armature;
-     *
-     *          public function DragonAnimation()
-     *          {
-     *              factory = new BaseFactory();
-     *              factory.addEventListener(Event.COMPLETE, handleParseData);
-     *              factory.parseData(new ResourcesData(), 'Dragon');
-     *          }
-     *
-     *          private function handleParseData(e:Event):void
-     *          {
-     *              armature = factory.buildArmature('Dragon');
-     *              addChild(armature.display as Sprite);
-     *              armature.animation.play();
-     *              WorldClock.clock.add(armature);
-     *              addEventListener(Event.ENTER_FRAME, updateAnimation);
-     *          }
-     *
-     *          private function updateAnimation(e:Event):void
-     *          {
-     *              WorldClock.clock.advanceTime(stage.frameRate / 1000);
-     *          }
-     *      }
-     *  }
-     * </listing>
      * @see dragonBones.Armature
      * @see dragonBones.Bone
      * @see dragonBones.animation.Animation

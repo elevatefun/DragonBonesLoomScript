@@ -1,25 +1,17 @@
 package
 {
     import loom.Application;
-    import loom.platform.Timer;
     import loom2d.display.StageScaleMode;
     import loom2d.display.Image;
     import loom2d.display.Sprite;
     import loom2d.textures.Texture;
-    import loom2d.ui.SimpleLabel;
-    import loom.gameframework.TimeManager;
     import loom.gameframework.IAnimated;
 
     import dragonBones.factories.LoomFactory;
     import dragonBones.Armature;
-    import dragonBones.animation.Animation;
     import dragonBones.animation.WorldClock;
-    import dragonBones.objects.SkeletonData;
 
-    import loom2d.ui.TextureAtlasManager;
-    import loom2d.ui.TextureAtlasSprite;
-
-    public class Basic extends Application implements IAnimated
+    public class KnightRunning extends Application implements IAnimated
     {
 
         public var factory:LoomFactory;
