@@ -4,7 +4,7 @@ package dragonBones.utils {
     final public class ConstValues
     {
         public static const ANGLE_TO_RADIAN:Number = Math.PI / 180;
-        
+
         public static const DRAGON_BONES:String = "dragonBones";
         public static const ARMATURE:String = "armature";
         public static const SKIN:String = "skin";
@@ -16,10 +16,10 @@ package dragonBones.utils {
         public static const FRAME:String = "frame";
         public static const TRANSFORM:String = "transform";
         public static const COLOR_TRANSFORM:String = "colorTransform";
-        
+
         public static const TEXTURE_ATLAS:String = "TextureAtlas";
         public static const SUB_TEXTURE:String = "SubTexture";
-        
+
         public static const A_VERSION:String = "version";
         public static const A_IMAGE_PATH:String = "imagePath";
         public static const A_FRAME_RATE:String = "frameRate";

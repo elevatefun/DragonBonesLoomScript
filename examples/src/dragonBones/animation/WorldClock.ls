@@ -6,9 +6,9 @@ package dragonBones.animation {
     */
 
     import dragonBones.Armature;
-    
+
     import loom.gameframework.TimeManager;
-    
+
     //import flash.utils.getTimer;
 
 
@@ -16,44 +16,44 @@ package dragonBones.animation {
      * A WorldClock instance lets you conveniently update many number of Armature instances at once. You can add/remove Armature instance and set a global timescale that will apply to all registered Armature instance animations.
      * @example
      * <p>Download the example files <a href='http://dragonbones.github.com/downloads/DragonBones_Tutorial_Assets.zip'>here</a>: </p>
-     * <listing>    
-     *  package  
+     * <listing>
+     *  package
      *  {
      *      import dragonBones.Armature;
      *      import dragonBones.factories.BaseFactory;
      *      import flash.display.Sprite;
-     *      import flash.events.Event;  
+     *      import flash.events.Event;
      *  import dragonBones.animation.WorldClock;
-     * 
      *
-     * public class DragonAnimation extends Sprite 
-     *      {       
-     *          [Embed(source = "Dragon1.swf", mimeType = "application/octet-stream")]  
+     *
+     * public class DragonAnimation extends Sprite
+     *      {
+     *          [Embed(source = "Dragon1.swf", mimeType = "application/octet-stream")]
      *          private static const ResourcesData:Class;
-     *          
+     *
      *          private var factory:BaseFactory;
-     *          private var armature:Armature;          
-     *          
-     *          public function DragonAnimation() 
-     *          {               
+     *          private var armature:Armature;
+     *
+     *          public function DragonAnimation()
+     *          {
      *              factory = new BaseFactory();
      *              factory.addEventListener(Event.COMPLETE, handleParseData);
      *              factory.parseData(new ResourcesData(), 'Dragon');
      *          }
-     *          
-     *          private function handleParseData(e:Event):void 
-     *          {           
+     *
+     *          private function handleParseData(e:Event):void
+     *          {
      *              armature = factory.buildArmature('Dragon');
-     *              addChild(armature.display as Sprite);           
-     *              armature.animation.play();              
+     *              addChild(armature.display as Sprite);
+     *              armature.animation.play();
      *              WorldClock.clock.add(armature);
-     *              addEventListener(Event.ENTER_FRAME, updateAnimation);           
+     *              addEventListener(Event.ENTER_FRAME, updateAnimation);
      *          }
-     *          
-     *          private function updateAnimation(e:Event):void 
+     *
+     *          private function updateAnimation(e:Event):void
      *          {
      *              WorldClock.clock.advanceTime(stage.frameRate / 1000);
-     *          }       
+     *          }
      *      }
      *  }
      * </listing>
@@ -63,7 +63,7 @@ package dragonBones.animation {
      */
 
 
-     
+
     public final class WorldClock implements IAnimatable
     {
 
@@ -76,9 +76,9 @@ package dragonBones.animation {
          */
         public static var clock:WorldClock = new WorldClock();
 
-        private var _animatableList:Vector.<IAnimatable>;        
+        private var _animatableList:Vector.<IAnimatable>;
         private var _time:Number;
-        
+
         /**
          * @private
          */
@@ -86,7 +86,7 @@ package dragonBones.animation {
         {
             return _time;
         }
-        
+
         private var _timeScale:Number = 1;
         /**
          * The time scale to apply to the number of second passed to the advanceTime() method.
@@ -118,7 +118,7 @@ package dragonBones.animation {
             _animatableList = new Vector.<IAnimatable>();
         }
 
-        /** 
+        /**
          * Returns true if the IAnimatable instance is contained by WorldClock instance.
          * @param   An IAnimatable instance (Armature or custom)
          * @return true if the IAnimatable instance is contained by WorldClock instance.
@@ -170,7 +170,7 @@ package dragonBones.animation {
                 passedTime = currentTime - _time;
                 _time = currentTime;
             }
-            
+
             passedTime *= _timeScale;
 
             var length:int = int(_animatableList.length);
@@ -187,7 +187,7 @@ package dragonBones.animation {
                     if(currentIndex != i)
                     {
                         if(_animatableList[currentIndex]){
-                            _animatableList[currentIndex] = animatable;                            
+                            _animatableList[currentIndex] = animatable;
                         }else {
                             _animatableList.push(animatable);
                         }
@@ -197,7 +197,7 @@ package dragonBones.animation {
                     currentIndex ++;
                 }
             }
-            
+
             if (currentIndex != i)
             {
                 length = _animatableList.length;

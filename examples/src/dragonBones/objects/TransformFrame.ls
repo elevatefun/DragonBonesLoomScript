@@ -2,7 +2,7 @@ package dragonBones.objects {
 
     import loom2d.math.Color;
     import loom2d.math.Point;
-    
+
     import dragonBones.objects.DBTransform;
 
 
@@ -13,28 +13,28 @@ package dragonBones.objects {
         public var displayIndex:int;
         public var visible:Boolean;
         public var zOrder:Number;
-        
+
         public var global:DBTransform;
         public var transform:DBTransform;
         public var pivot:Point;
         public var color:Color;
-        
-        
+
+
         public function TransformFrame()
         {
             super();
-            
+
             tweenEasing = 0;
             tweenRotate = 0;
             displayIndex = 0;
             visible = true;
             zOrder = NaN;
-            
+
             global = new DBTransform();
             transform = new DBTransform();
             pivot = new Point();
         }
-        
+
         override public function dispose():void
         {
             super.dispose();
@@ -43,5 +43,5 @@ package dragonBones.objects {
             color = null;
         }
     }
-    
+
 }

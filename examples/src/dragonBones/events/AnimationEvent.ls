@@ -8,8 +8,8 @@ package dragonBones.events {
     */
     import dragonBones.Armature;
     import dragonBones.animation.AnimationState;
-    
-    import loom2d.events.Event; 
+
+    import loom2d.events.Event;
     /**
      * The AnimationEvent provides and defines all events dispatched during an animation.
      *
@@ -18,48 +18,48 @@ package dragonBones.events {
      */
     public class AnimationEvent extends Event
     {
- 
+
 
         /**
          * Dispatched when the playback of an animation fade in.
          */
         public static const FADE_IN:String = "fadeIn";
-        
+
         /**
          * Dispatched when the playback of an animation fade out.
          */
         public static const FADE_OUT:String = "fadeOut";
-        
+
         /**
          * Dispatched when the playback of an animation starts.
          */
         public static const START:String = "start";
-        
+
         /**
          * Dispatched when the playback of a animation stops.
          */
         public static const COMPLETE:String = "complete";
-        
+
         /**
          * Dispatched when the playback of a animation completes a loop.
          */
         public static const LOOP_COMPLETE:String = "loopComplete";
-        
+
         /**
          * Dispatched when the playback of an animation fade in complete.
          */
         public static const FADE_IN_COMPLETE:String = "fadeInComplete";
-        
+
         /**
          * Dispatched when the playback of an animation fade out complete.
          */
         public static const FADE_OUT_COMPLETE:String = "fadeOutComplete";
-        
+
         /**
          * The animationState instance.
          */
         public var animationState:AnimationState;
-        
+
         /**
          * The armature that is the taget of this event.
          */
@@ -67,7 +67,7 @@ package dragonBones.events {
         {
             return target as Armature;
         }
-        
+
         public function get movementID():String
         {
             return animationState.name;
@@ -80,21 +80,21 @@ package dragonBones.events {
         {
             return FADE_IN;
         }
-        
 
-        
+
+
         /**
          * Creates a new AnimationEvent instance.
          * @param   type
          * @param   cancelable
          */
         //public function AnimationEvent(type:String, cancelable:Boolean = false)
-        public function AnimationEvent(type:String, cancelable:Boolean = false):void 
+        public function AnimationEvent(type:String, cancelable:Boolean = false):void
         {
             //super(type, false, cancelable);
             super(type, false);
         }
-        
+
         /**
          * @private
          * @return

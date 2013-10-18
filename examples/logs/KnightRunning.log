@@ -857,3 +857,5320 @@ Texture not found: atlasName=texture, textureName=knightFolder/armOutside
 
 
 
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texture not found: atlasName=texture, textureName=knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/common/assets/assets.cpp@729] (false): 
+Could not open file 'knightFolder/horseBody'.
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+loom.graphics.Texture2D.initFromAsset : [NATIVE] : 0
+loom2d.textures.Texture.fromAsset : src/loom2d/Textures/Texture.ls : 122
+loom2d.ui.TextureAtlasSprite.updateTexture : src/loom2d/UI/TextureAtlasSprite.ls : 85
+loom2d.ui.TextureAtlasSprite.getBounds : src/loom2d/UI/TextureAtlasSprite.ls : 64
+loom2d.display.DisplayObjectContainer.getBounds : src/loom2d/Display/DisplayObjectContainer.ls : 315
+loom2d.display.DisplayObject.__pget_width : src/loom2d/Display/DisplayObject.ls : 359
+.Basic.setupKnight : ./src/KnightRunning.ls : 50
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knightFolder/horseHead
+
+
+
+
+
+
+knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knightFolder/horseHead
+
+
+
+
+
+
+knightFolder/armOutside
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knightFolder/horseHead
+null
+
+
+
+
+
+
+
+
+knightFolder/armOutside
+null
+
+
+
+
+knightFolder/bow
+null
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/common/assets/assets.cpp@729] (false): 
+Could not open file 'knightFolder/horseBody'.
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+loom.graphics.Texture2D.initFromAsset : [NATIVE] : 0
+loom2d.textures.Texture.fromAsset : src/loom2d/Textures/Texture.ls : 122
+loom2d.ui.TextureAtlasSprite.updateTexture : src/loom2d/UI/TextureAtlasSprite.ls : 85
+loom2d.ui.TextureAtlasSprite.getBounds : src/loom2d/UI/TextureAtlasSprite.ls : 64
+loom2d.display.DisplayObjectContainer.getBounds : src/loom2d/Display/DisplayObjectContainer.ls : 315
+loom2d.display.DisplayObject.__pget_width : src/loom2d/Display/DisplayObject.ls : 359
+.Basic.setupKnight : ./src/KnightRunning.ls : 50
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+Object:dragonBones.objects.SkeletonData
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knightFolder/horseHead
+null
+null
+
+
+
+
+
+
+
+
+knightFolder/armOutside
+null
+null
+
+
+
+
+knightFolder/bow
+null
+null
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/common/assets/assets.cpp@729] (false): 
+Could not open file 'knightFolder/horseBody'.
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+loom.graphics.Texture2D.initFromAsset : [NATIVE] : 0
+loom2d.textures.Texture.fromAsset : src/loom2d/Textures/Texture.ls : 122
+loom2d.ui.TextureAtlasSprite.updateTexture : src/loom2d/UI/TextureAtlasSprite.ls : 85
+loom2d.ui.TextureAtlasSprite.getBounds : src/loom2d/UI/TextureAtlasSprite.ls : 64
+loom2d.display.DisplayObjectContainer.getBounds : src/loom2d/Display/DisplayObjectContainer.ls : 315
+loom2d.display.DisplayObject.__pget_width : src/loom2d/Display/DisplayObject.ls : 359
+.Basic.setupKnight : ./src/KnightRunning.ls : 50
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+Knight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knightFolder/horseHead
+Knight
+Knight
+
+
+
+
+
+
+
+
+knightFolder/armOutside
+Knight
+Knight
+
+
+
+
+knightFolder/bow
+Knight
+Knight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+Knight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+knightFolder/horseHead
+
+
+
+
+
+
+
+
+knightFolder/armOutside
+
+
+
+
+knightFolder/bow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 205
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+done with this
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 147
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+done with this
+done with this
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+done with this
+done with this
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+done with this
+done with this
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+done with this
+
+
+done with this
+
+done with this
+done with this
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 147
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 147
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 147
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.Bone.arriveAtFrame : ./src/dragonBones/Bone.ls : 254
+dragonBones.animation.TimelineState.update : ./src/dragonBones/animation/TimelineState.ls : 210
+dragonBones.animation.AnimationState.advanceTime : ./src/dragonBones/animation/AnimationState.ls : 443
+dragonBones.animation.Animation.gotoAndPlay : ./src/dragonBones/animation/Animation.ls : 376
+.Basic.setupKnight : ./src/KnightRunning.ls : 55
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+[TextureAtlasSprite null]
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+Object:dragonBones.Armature
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object:loom2d.display.Sprite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object:loom2d.display.Sprite
+Object:loom2d.display.Sprite
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object:loom2d.display.Sprite
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+
+no display
+
+no display
+Object:loom2d.display.Sprite
+no display
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 148
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 208
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+
+no display
+
+no display
+Object:loom2d.display.Sprite
+no display
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 148
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 209
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+
+no display
+
+no display
+Object:loom2d.display.Sprite
+no display
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 148
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 209
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+
+no display
+
+no display
+Object:loom2d.display.Sprite
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+
+
+no display
+
+no display
+
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+
+no display
+Object:loom2d.display.Sprite
+no display
+Object:loom2d.display.Sprite
+no display
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+null
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:loom2d.display.Sprite
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 81
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Error calling dragonBones.display.LoomDisplayBridge:addDisplay
+[string "./src/dragonBones/display/LoomDisplayBridge.ls"]:159: attempt to call a nil value
+
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.addDisplay : ./src/dragonBones/display/LoomDisplayBridge.ls : 159
+dragonBones.Slot.setArmature : ./src/dragonBones/Slot.ls : 251
+dragonBones.Bone.addChild : ./src/dragonBones/Bone.ls : 175
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 231
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+
+
+[TextureAtlasSprite null]
+
+[TextureAtlasSprite null]
+Object:loom2d.display.Sprite
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 81
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.__pset_childArmature : ./src/dragonBones/Slot.ls : 105
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 206
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 84
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 204
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 84
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 204
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+true
+
+true
+
+true
+
+true
+
+true
+
+
+true
+
+true
+false
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 85
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 204
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+true
+
+true
+
+true
+
+true
+
+true
+
+
+true
+
+true
+
+
+
+true
+
+true
+
+true
+
+true
+
+true
+
+
+
+true
+
+true
+
+
+true
+
+true
+
+true
+
+true
+
+true
+
+true
+
+true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 204
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[error] Assert failed [/Applications/buildAgent/work/6ac8864667b5c5a3/loom/script/runtime/lsInstanceRT.cpp@207] (mi): 
+Unable to find ordinal loom2d.display.Sprite 177
+
+=====================
+=   RUNTIME ERROR   =
+=====================
+
+Native Assertion - see above for full error text
+Stacktrace:
+dragonBones.display.LoomDisplayBridge.__pset_display : ./src/dragonBones/display/LoomDisplayBridge.ls : 80
+dragonBones.Slot.setDisplay : ./src/dragonBones/Slot.ls : 146
+dragonBones.Slot.changeDisplay : ./src/dragonBones/Slot.ls : 204
+dragonBones.factories.LoomFactory.buildArmature : ./src/dragonBones/factories/LoomFactory.ls : 230
+.Basic.setupKnight : ./src/KnightRunning.ls : 48
+system.BaseDelegate.call : [NATIVE] : 0
+dragonBones.factories.LoomFactory.parseData : ./src/dragonBones/factories/LoomFactory.ls : 94
+.Basic.run : ./src/KnightRunning.ls : 42
+loom.Application._run : src/loom/Application.ls : 198
+system.BaseDelegate.call : [NATIVE] : 0
+loom.Application.tick : src/loom/Application.ls : 348
+
+Fatal Runtime Error
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initializing services...
+[loom.application]    o asserts
+[loom.application]    o performance
+[loom.application]    o RNG
+[loom.application]    o time
+[loom.application]    o stringtable
+[loom.application]    o types
+[loom.application]    o network
+[loom.application]    o http
+[loom.application]    o assets
+[loom.application]    o executing Main.loom
+[loom.application] Mapped asset for script: 'bin/Main.loom'
+[loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[loom.application] Instantiating Application: Basic
+Initializing root group.
+[GFXQuadRenderer] Initializing Graphics Resources
+Command manager online.
+[GFXTexture] loading assets/bg.png
+[GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[GFXTexture] Create texture for assets/bg.png
+[GFXTexture] loading assets/tile.png
+[GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[GFXTexture] Create texture for assets/tile.png
+[GFXTexture] loading assets/Knight/texture.png
+[GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[GFXTexture] Create texture for assets/Knight/texture.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[asset.protocol] LOG: 
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[loom.asset] SENDING       -  src/dragonBones/.Armature.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/Armature.ls
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (6)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[loom.asset] SENDING       -  src/dragonBones/.Armature.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/Armature.ls
+[loom.asset] SENDING       -  bin/Main.loom
+[loom.asset] Starting file watcher thread...
+[loom.asset]    o OK!
+[loom.asset] Starting socket listener thread...
+[loom.asset]    o OK!
+[loom.asset] Listening on port 12340
+[loom.asset]    o OK!
+[loom.asset] Client connected (7)!
+[asset.protocol] LOG: [loom.application]    o Connected to asset agent.
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: [GFXQuadRenderer] Initializing Graphics Resources
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: [GFXTexture] loading assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/bg.png - 1297 x 760 at id 0
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/bg.png
+[asset.protocol] LOG: [GFXTexture] loading assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/tile.png - 128 x 128 at id 1
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/tile.png
+[asset.protocol] LOG: [GFXTexture] loading assets/Knight/texture.png
+[asset.protocol] LOG: [GFXTexture] loaded assets/Knight/texture.png - 256 x 256 at id 2
+[asset.protocol] LOG: [GFXTexture] Create texture for assets/Knight/texture.png
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/.Armature.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/Armature.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/.Armature.ls.un~', 18502 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/Armature.ls', 15878 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/animation/.Animation.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/animation/Animation.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/.Animation.ls.un~', 3531 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/Animation.ls', 20817 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[loom.asset] SENDING       -  src/dragonBones/animation/.AnimationState.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/animation/AnimationState.ls
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/.AnimationState.ls.un~', 30083 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/AnimationState.ls', 21369 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[loom.asset] SENDING       -  src/dragonBones/animation/.IAnimatable.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/animation/IAnimatable.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/.IAnimatable.ls.un~', 1841 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/IAnimatable.ls', 658 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[loom.asset] SENDING       -  src/dragonBones/animation/TimelineState.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/TimelineState.ls', 25772 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[loom.asset] SENDING       -  src/dragonBones/animation/WorldClock.ls
+[loom.asset] SENDING       -  src/dragonBones/animation/.WorldClock.ls.un~
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/WorldClock.ls', 7050 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/animation/.WorldClock.ls.un~', 2247 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/core/.DBObject.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/core/DBObject.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/core/.DBObject.ls.un~', 10804 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/core/DBObject.ls', 6489 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/core/.DragonBones.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/core/DragonBones.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/core/.DragonBones.ls.un~', 1369 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/core/DragonBones.ls', 312 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/display/.IDisplayBridge.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/display/IDisplayBridge.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/display/.IDisplayBridge.ls.un~', 4774 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/display/IDisplayBridge.ls', 2266 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/display/.LoomDisplayBridge.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/display/LoomDisplayBridge.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/display/.LoomDisplayBridge.ls.un~', 16059 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/display/LoomDisplayBridge.ls', 4901 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/events/.AnimationEvent.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/events/AnimationEvent.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/.AnimationEvent.ls.un~', 1071 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/AnimationEvent.ls', 2927 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/events/.ArmatureEvent.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/events/ArmatureEvent.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/.ArmatureEvent.ls.un~', 1876 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/ArmatureEvent.ls', 891 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/events/.ArmatureEvent.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/events/ArmatureEvent.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/.ArmatureEvent.ls.un~', 2418 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/ArmatureEvent.ls', 866 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/events/.FrameEvent.ls.un~
+[loom.asset] SENDING       -  src/dragonBones/events/FrameEvent.ls
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/.FrameEvent.ls.un~', 4760 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/FrameEvent.ls', 2284 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/events/.FrameEvent.ls.un~
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[loom.asset] SENDING       -  src/dragonBones/events/FrameEvent.ls
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/.FrameEvent.ls.un~', 4760 bytes.
+[asset.protocol] LOG: [asset.core] Applying new version of 'src/dragonBones/events/FrameEvent.ls', 2284 bytes.
+[loom.asset] SENDING       -  bin/Main.loom
+[asset.protocol] LOG: [asset.core] Applying new version of 'bin/Main.loom', 677668 bytes.
+[asset.protocol] LOG: [loom.application] Restarting VM due to modification to 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] Reloading main assembly: Main.loom
+[asset.protocol] LOG: Dumping Managed Natives:
+[asset.protocol] LOG: system.reflection.FieldInfo : 65
+[asset.protocol] LOG: loom2d.ui.TextureAtlasSprite : 23
+[asset.protocol] LOG: system.reflection.Type : 13
+[asset.protocol] LOG: loom2d.display.Sprite : 4
+[asset.protocol] LOG: system.VM : 1
+[asset.protocol] LOG: dragonBones.Armature : 4
+[asset.protocol] LOG: system.reflection.MetaInfo : 1
+[asset.protocol] LOG: loom2d.display.Image : 1
+[asset.protocol] LOG: loom2d.display.CCLayer : 1
+[asset.protocol] LOG: loom2d.display.Stage : 1
+[asset.protocol] LOG: feathers.core.ToggleGroup : 1
+[asset.protocol] LOG: dragonBones.events.SoundEventManager : 1
+[asset.protocol] LOG: [loom.application]    o executing Main.loom
+[asset.protocol] LOG: [loom.application] Mapped asset for script: 'bin/Main.loom'
+[asset.protocol] LOG: [loom.application] LOOM Built (Release) Sep  6 2013 17:29:31
+[asset.protocol] LOG: [loom.application] Instantiating Application: Basic
+[asset.protocol] LOG: Initializing root group.
+[asset.protocol] LOG: Command manager online.
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!
+[asset.protocol] LOG: Someone please tell me why we need this trace!

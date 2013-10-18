@@ -4,7 +4,7 @@ package dragonBones.objects {
     * Copyright 2012-2013. DragonBones. All Rights Reserved.
     * @version 2.0
     */
-    
+
     import dragonBones.core.DragonBones;
     import dragonBones.objects.AnimationData;
     import dragonBones.objects.ArmatureData;
@@ -20,13 +20,13 @@ package dragonBones.objects {
     import dragonBones.objects.TransformTimeline;
     import dragonBones.utils.ConstValues;
     import dragonBones.utils.DBDataUtil;
-    
+
     import loom2d.math.Color;
     import loom2d.math.Point;
     import loom2d.math.Rectangle;
 
 
-        
+
     /**
      * The XMLDataParser class parses xml data from dragonBones generated maps.
      */
@@ -45,13 +45,13 @@ package dragonBones.objects {
         //        subTextureData.y = int(subTextureXML.@[ConstValues.A_Y]) / scale;
         //        subTextureData.width = int(subTextureXML.@[ConstValues.A_WIDTH]) / scale;
         //        subTextureData.height = int(subTextureXML.@[ConstValues.A_HEIGHT]) / scale;
-                
+
         //        textureAtlasData[subTextureName] = subTextureData;
         //    }
-            
+
         //    return textureAtlasData;
         //}
-        
+
         /*
          * Parse the SkeletonData.
          * @param   xml The SkeletonData xml to parse.
@@ -59,7 +59,7 @@ package dragonBones.objects {
          */
         public static function parseSkeletonData(filePath:String):SkeletonData
         {
-            
+
             var xmlDoc:XMLDocument = new XMLDocument();
             xmlDoc.loadFile(filePath);
             var root:XMLElement = xmlDoc.rootElement();
@@ -74,11 +74,11 @@ package dragonBones.objects {
                 data.addArmatureData(parseArmatureData(armatureXML, data, frameRate));
                 armatureXML = armatureXML.nextSiblingElement();
             }
-            
+
             return data;
         }
 
-        
+
 
         private static function parseArmatureData(armatureXML:XMLElement, data:SkeletonData, frameRate:uint):ArmatureData {
 
@@ -98,29 +98,29 @@ package dragonBones.objects {
                 armatureData.addSkinData(parseSkinData(skinXML, data));
                 skinXML = skinXML.nextSiblingElement(ConstValues.SKIN);
             }
-            
+
             DBDataUtil.transformArmatureData(armatureData);
             armatureData.sortBoneDataList();
-            
+
             var animationXML:XMLElement = armatureXML.firstChildElement(ConstValues.ANIMATION);
             while(animationXML){
 
                 armatureData.addAnimationData(parseAnimationData(animationXML, armatureData, frameRate));
                 animationXML = animationXML.nextSiblingElement(ConstValues.ANIMATION);
             }
-            
+
             return armatureData;
         }
-        
+
 
 
         private static function parseBoneData(boneXML:XMLElement):BoneData {
-            
+
             var boneData:BoneData = new BoneData();
             boneData.name = boneXML.getAttribute(ConstValues.A_NAME);
             boneData.parent = boneXML.getAttribute(ConstValues.A_PARENT);
             boneData.length = Number(boneXML.getNumberAttribute(ConstValues.A_LENGTH));
-            
+
             var inheritScale:String = boneXML.getAttribute(ConstValues.A_SCALE_MODE);
             if(inheritScale){
                 boneData.scaleMode = Number(inheritScale);
@@ -148,30 +148,30 @@ package dragonBones.objects {
 
             parseTransform(boneXML.firstChildElement(ConstValues.TRANSFORM), boneData.global);
             boneData.transform.copy(boneData.global);
-            
+
             return boneData;
         }
 
 
-        
+
         private static function parseSkinData(skinXML:XMLElement, data:SkeletonData):SkinData {
-       
+
             var skinData:SkinData = new SkinData();
             skinData.name = skinXML.getAttribute(ConstValues.A_NAME);
-            
+
             var slotXML:XMLElement = skinXML.firstChildElement(ConstValues.SLOT);
             while(slotXML){
 
                 skinData.addSlotData(parseSlotData(slotXML, data));
                 slotXML = slotXML.nextSiblingElement(ConstValues.SLOT);
             }
-            
+
             return skinData;
         }
 
-        
+
         private static function parseSlotData(slotXML:XMLElement, data:SkeletonData):SlotData {
-            
+
             var slotData:SlotData = new SlotData();
             slotData.name = slotXML.getAttribute(ConstValues.A_NAME);
             slotData.parent = slotXML.getAttribute(ConstValues.A_PARENT);
@@ -180,33 +180,33 @@ package dragonBones.objects {
             if(!slotData.blendMode){
                 slotData.blendMode = "normal";
             }
-            
+
             var displayXML:XMLElement = slotXML.firstChildElement(ConstValues.DISPLAY);
             while(displayXML){
 
                 slotData.addDisplayData(parseDisplayData(displayXML, data));
                 displayXML = displayXML.nextSiblingElement(ConstValues.DISPLAY);
             }
-            
+
             return slotData;
         }
-        
+
 
         private static function parseDisplayData(displayXML:XMLElement, data:SkeletonData):DisplayData {
-            
+
             var displayData:DisplayData = new DisplayData();
             displayData.name = displayXML.getAttribute(ConstValues.A_NAME);
             displayData.type = displayXML.getAttribute(ConstValues.A_TYPE);
-            
+
             displayData.pivot = data.addSubTexturePivot(0, 0, displayData.name);
             parseTransform(displayXML.firstChildElement(ConstValues.TRANSFORM), displayData.transform, displayData.pivot);
-            
+
             return displayData;
         }
-        
+
 
         public static function parseAnimationData(animationXML:XMLElement, armatureData:ArmatureData, frameRate:uint):AnimationData {
-            
+
             var animationData:AnimationData = new AnimationData();
             animationData.name = animationXML.getAttribute(ConstValues.A_NAME);
             animationData.frameRate = frameRate;
@@ -215,12 +215,12 @@ package dragonBones.objects {
             animationData.duration = Number(animationXML.getNumberAttribute(ConstValues.A_DURATION)) / frameRate;
             animationData.scale = Number(animationXML.getNumberAttribute(ConstValues.A_SCALE));
             animationData.tweenEasing = Number(animationXML.getNumberAttribute(ConstValues.A_TWEEN_EASING));
-            
+
             parseTimeline(animationXML, animationData, parseMainFrame, frameRate);
-            
+
             var timeline:TransformTimeline;
             var timelineName:String;
-            
+
             var timelineXML:XMLElement = animationXML.firstChildElement(ConstValues.TIMELINE);
             while(timelineXML){
 
@@ -229,20 +229,20 @@ package dragonBones.objects {
                 animationData.addTimeline(timeline, timelineName);
                 timelineXML = timelineXML.nextSiblingElement(ConstValues.TIMELINE);
             }
-            
+
             DBDataUtil.addHideTimeline(animationData, armatureData);
             DBDataUtil.transformAnimationData(animationData, armatureData);
-            
+
             return animationData;
         }
-        
+
 
 
         private static function parseTimeline(timelineXML:XMLElement, timeline:Timeline, frameParser:Function, frameRate:uint):void {
-            
+
             var position:Number = 0;
             var frame:Frame;
-            
+
             var frameXML:XMLElement = timelineXML.firstChildElement(ConstValues.FRAME);
             while(frameXML){
 
@@ -262,53 +262,53 @@ package dragonBones.objects {
 
 
         private static function parseTransformTimeline(timelineXML:XMLElement, duration:Number, frameRate:uint):TransformTimeline {
-            
+
             var timeline:TransformTimeline = new TransformTimeline();
             timeline.duration = duration;
-            
+
             parseTimeline(timelineXML, timeline, parseTransformFrame, frameRate);
-            
+
             timeline.scale = Number(timelineXML.getNumberAttribute(ConstValues.A_SCALE));
             timeline.offset = Number(timelineXML.getNumberAttribute(ConstValues.A_OFFSET));
-            
+
             return timeline;
         }
-        
+
 
 
         private static function parseFrame(frameXML:XMLElement, frame:Frame, frameRate:uint):void {
-            
+
             frame.duration = Number(frameXML.getNumberAttribute(ConstValues.A_DURATION)) / frameRate;
             frame.action = frameXML.getAttribute(ConstValues.A_ACTION);
             frame.event = frameXML.getAttribute(ConstValues.A_EVENT);
             frame.sound = frameXML.getAttribute(ConstValues.A_SOUND);
         }
-        
+
 
         private static function parseMainFrame(frameXML:XMLElement, frameRate:uint):Frame {
-            
+
             var frame:Frame = new Frame();
             parseFrame(frameXML, frame, frameRate);
             return frame;
         }
-        
+
 
 
         private static function parseTransformFrame(frameXML:XMLElement, frameRate:uint):TransformFrame {
-            
+
             var frame:TransformFrame = new TransformFrame();
             parseFrame(frameXML, frame, frameRate);
-            
+
             frame.visible = uint(frameXML.getNumberAttribute(ConstValues.A_HIDE)) != 1;
             frame.tweenEasing = Number(frameXML.getNumberAttribute(ConstValues.A_TWEEN_EASING));
             frame.tweenRotate = Number(frameXML.getNumberAttribute(ConstValues.A_TWEEN_ROTATE));
             frame.displayIndex = Number(frameXML.getNumberAttribute(ConstValues.A_DISPLAY_INDEX));
             //
             frame.zOrder = Number(frameXML.getNumberAttribute(ConstValues.A_Z_ORDER));
-            
+
             parseTransform(frameXML.firstChildElement(ConstValues.TRANSFORM), frame.global, frame.pivot);
             frame.transform.copy(frame.global);
-            
+
             //var colorTransformXML:XML = frameXML[ConstValues.COLOR_TRANSFORM)[0);
             //if(colorTransformXML)
             //{
@@ -317,20 +317,20 @@ package dragonBones.objects {
             //    frame.color.redOffset = Number(colorTransformXML.getAttribute(ConstValues.A_RED_OFFSET));
             //    frame.color.greenOffset = Number(colorTransformXML.getAttribute(ConstValues.A_GREEN_OFFSET));
             //    frame.color.blueOffset = Number(colorTransformXML.getAttribute(ConstValues.A_BLUE_OFFSET));
-                
+
             //    frame.color.alphaMultiplier = Number(colorTransformXML.getAttribute(ConstValues.A_ALPHA_MULTIPLIER)) * 0.01;
             //    frame.color.redMultiplier = Number(colorTransformXML.getAttribute(ConstValues.A_RED_MULTIPLIER)) * 0.01;
             //    frame.color.greenMultiplier = Number(colorTransformXML.getAttribute(ConstValues.A_GREEN_MULTIPLIER)) * 0.01;
             //    frame.color.blueMultiplier = Number(colorTransformXML.getAttribute(ConstValues.A_BLUE_MULTIPLIER)) * 0.01;
             //}
-            
+
             return frame;
         }
-        
+
 
 
         private static function parseTransform(transformXML:XMLElement, transform:DBTransform, pivot:Point = new Point()):void {
-            
+
             if(transformXML) {
                 if(transform)
                 {
