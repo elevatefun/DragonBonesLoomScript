@@ -1,3 +1,6 @@
 *.un~
 
 .DS_Store
+
+/examples/bin/Main.loom
+/examples/logs/KnightRunning.log
