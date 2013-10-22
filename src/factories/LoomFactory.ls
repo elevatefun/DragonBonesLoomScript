@@ -65,18 +65,7 @@ package dragonBones.factories {
 
 
 
-        public function parseData(atlasName:String, atlasXMLPath:String, skeletonPath:String, dataName:String = null):SkeletonData {
-
-            TextureAtlasManager.register(atlasName, atlasXMLPath);
-
-
-
-
-            //var parser:JSONDataParser = new JSONDataParser();
-            //var data:SkeletonData = parser.parseSkeletonData(skeletonPath);
-
-            //var parser:XMLDataParser = new XMLDataParser();
-            //var data:SkeletonData = parser.parseSkeletonData('assets/skeleton.xml');
+        public function parseData(atlasXMLPath:String, skeletonPath:String, dataName:String = null):SkeletonData {
 
             var data:SkeletonData = DataParser.parseSkeletonData(skeletonPath);
             var skeleton:SkeletonData;
@@ -88,8 +77,10 @@ package dragonBones.factories {
 
             var entryName = (dataName) ? dataName : skeleton.name;
 
+            TextureAtlasManager.register(entryName, atlasXMLPath);
+
             _dataDic[entryName] = skeleton;
-            _textureAtlasDic[entryName] = atlasName;
+            _textureAtlasDic[entryName] = entryName;
 
             onParseComplete();
             return skeleton;
@@ -115,7 +106,7 @@ package dragonBones.factories {
 
             var entryName:String = (skeletonName) ? skeletonName : armatureName;
 
-            //_currentDataName = _dataDic[entryName];
+            _currentDataName = _dataDic[entryName].name;
             _currentTextureAtlasName = _textureAtlasDic[entryName];
 
             if(skeletonName) {

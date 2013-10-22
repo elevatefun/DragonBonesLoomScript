@@ -31,9 +31,9 @@ package
 
             factory = new LoomFactory();
             factory.onParseComplete += setupKnight;
-            factory.parseData('texture', 'assets/Knight/texture.xml', 'assets/Knight/skeleton.xml');
-
+            factory.parseData('assets/Knight/texture.xml', 'assets/Knight/skeleton.xml');
         }
+        
 
         public function setupKnight():void {
 

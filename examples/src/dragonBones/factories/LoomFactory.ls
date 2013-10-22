@@ -65,18 +65,7 @@ package dragonBones.factories {
 
 
 
-        public function parseData(atlasName:String, atlasXMLPath:String, skeletonPath:String, dataName:String = null):SkeletonData {
-
-            TextureAtlasManager.register(atlasName, atlasXMLPath);
-
-
-
-
-            //var parser:JSONDataParser = new JSONDataParser();
-            //var data:SkeletonData = parser.parseSkeletonData(skeletonPath);
-
-            //var parser:XMLDataParser = new XMLDataParser();
-            //var data:SkeletonData = parser.parseSkeletonData('assets/skeleton.xml');
+        public function parseData(atlasXMLPath:String, skeletonPath:String, dataName:String = null):SkeletonData {
 
             var data:SkeletonData = DataParser.parseSkeletonData(skeletonPath);
             var skeleton:SkeletonData;
@@ -88,8 +77,10 @@ package dragonBones.factories {
 
             var entryName = (dataName) ? dataName : skeleton.name;
 
+            TextureAtlasManager.register(entryName, atlasXMLPath);
+
             _dataDic[entryName] = skeleton;
-            _textureAtlasDic[entryName] = atlasName;
+            _textureAtlasDic[entryName] = entryName;
 
             onParseComplete();
             return skeleton;
@@ -235,69 +226,7 @@ package dragonBones.factories {
             return armature;
         }
 
-
-
-        /*
-         * Return the TextureDisplay.
-         * @example
-         * <listing>
-         * var texturedisplay:Object = factory.getTextureDisplay('dragon');
-         * </listing>
-         * @param   The name of this Texture.
-         * @param   The name of the TextureAtlas.
-         * @param   The registration pivotX position.
-         * @param   The registration pivotY position.
-         * @return An Object.
-         */
-        //public function getTextureDisplay(textureName:String, textureAtlasName:String = null, pivotX:Number = NaN, pivotY:Number = NaN):Object
-        //{
-
-        //    var textureAtlas:Texture;
-        //    if(textureAtlasName)
-        //    {
-        //        //textureAtas = _textureAtlasDic[textureAtlasName];
-        //    }
-        //    if(!textureAtlas && !textureAtlasName)
-        //    {
-        //        for (textureAtlasName in _textureAtlasDic)
-        //        {
-        //            textureAtlas = _textureAtlasDic[textureAtlasName];
-        //            if(textureAtlas.getRegion(textureName))
-        //            {
-        //                break;
-        //            }
-        //            textureAtlas = null;
-        //        }
-        //    }
-        //    if(textureAtlas)
-        //    {
-        //        if(isNaN(pivotX) || isNaN(pivotY))
-        //        {
-        //            var data:SkeletonData = _dataDic[textureAtlasName];
-        //            if(data)
-        //            {
-        //                var pivot:Point = data.getSubTexturePivot(textureName);
-        //                if(pivot)
-        //                {
-        //                    pivotX = pivot.x;
-        //                    pivotY = pivot.y;
-        //                }
-        //            }
-        //        }
-
-        //        return generateDisplay(textureAtlas, textureName, pivotX, pivotY);
-        //    }
-        //    return null;
-        //}
-
-
-        /** @private */
-        //protected function generateTextureAtlas(content:Object, textureAtlasRawData:Object):ITextureAtlas
-        //{
-        //    return null;
-        //}
-
-
+        
 
         /*
          * Generates a DisplayObject

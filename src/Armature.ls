@@ -326,16 +326,12 @@ package dragonBones {
         public function getBone(boneName:String):Bone
         {
 
-          var i:int = _boneList.length;
-          while(i --)
-          {
-              if(_boneList[i].name == boneName)
-              {
-                trace('');
-                  return _boneList[i];
-              }
-          }
-          return null;
+            for(var i:int = _boneList.length - 1; i > -1; i--) {
+                if(_boneList[i].name == boneName) {
+                    return _boneList[i];
+                }
+            }
+            return null;
         }
 
         /**
